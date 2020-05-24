@@ -24,4 +24,14 @@ logging:
 # 配置mybatis-plus的xml配置文件位置, 这里需要注意配置格式
 mybatis-plus:
   mapper-locations: classpath:mappers/*.xml
-  type-aliases-package: com.mp.entity
+  type-aliases-package: com.mp.entity # 配置这个别名， 在xml里面就不需要写类的全限定名了。
+  global-config:
+    db-config:
+      id-type: auto
+#      field-strategy: ignored
+      table-underline: true
+#      table-prefix: cic_
+    banner: false
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印SQL便于调试
+
