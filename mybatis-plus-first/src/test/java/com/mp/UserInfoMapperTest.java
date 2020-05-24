@@ -2,8 +2,11 @@ package com.mp;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.core.metadata.OrderItem;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
 import com.baomidou.mybatisplus.extension.conditions.query.LambdaQueryChainWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.mp.entity.User;
 import com.mp.entity.UserInfo;
 import com.mp.mapper.UserInfoMapper;
@@ -16,6 +19,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import javax.swing.*;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -223,6 +227,58 @@ public class UserInfoMapperTest {
         LambdaQueryWrapper<UserInfo> lambdaQueryWrapper = new LambdaQueryWrapper<>();
         lambdaQueryWrapper.likeRight(UserInfo::getName, "王");
         List<UserInfo> userInfoList = userInfoMapper.selectConsumerSQL(lambdaQueryWrapper);
+        userInfoList.stream().forEach(System.out::println);
+    }
+
+    // 这个测试是通过xml配置查询实现的 配置xml文件在resource/mpaaers/*.xml
+    @Test
+    public void testXmlMapper() {
+//        new LambdaQueryChainWrapper<UserInfo>(userInfoMapper)
+//                .likeRight(UserInfo::getName, "王")
+//                .eq(UserInfo::getAge, 25)
+//                .list();
+        QueryWrapper<UserInfo> queryWrapper = new QueryWrapper<>();
+        queryWrapper.likeRight("name", "王");
+       List<UserInfo> userInfoList =  userInfoMapper.selectAll(queryWrapper);
+       userInfoList.stream().forEach(System.out::println);
+    }
+
+    @Test
+    public void testSelectPage() {
+        QueryWrapper<UserInfo> queryWrapper = new QueryWrapper<>();
+        queryWrapper.ge("age", 20);
+        // 第一种分页查询
+//        Page<UserInfo> page = new Page<>(1,2);
+//        Page<UserInfo> pages = userInfoMapper.selectPage(page, queryWrapper);
+//        IPage<UserInfo> pages = userInfoMapper.selectPage(page, queryWrapper);
+//        System.out.println("数页数： " + pages.getPages());
+//        System.out.println("总计录数：" + pages.getTotal());
+        // 第二种分页查询
+//        IPage<Map<String, Object>> page = new Page<>(1,2, false);
+        IPage<Map<String, Object>> ipage = new Page<>(2,2,false);
+        ipage.setCurrent(1);
+        ipage.setSize(2);
+        System.out.println("isSearchCout = " + ipage.isSearchCount());
+        IPage<Map<String, Object>> pages = userInfoMapper.selectMapsPage(ipage, queryWrapper);
+        System.out.println("数页数： " + pages.getPages());
+        System.out.println("总计录数：" + pages.getTotal());
+        List<Map<String, Object>> userInfoList =  pages.getRecords();
+        userInfoList.stream().forEach(System.out::println);
+    }
+
+    // 自定义分页查询的测试
+    @Test
+    public void testCustomerPage() {
+
+        LambdaQueryWrapper<UserInfo>  queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.ge(UserInfo::getAge, 20);
+
+        Page<UserInfo> ipage = new Page<>(1,2, true);
+
+        IPage<UserInfo> ipages = userInfoMapper.selectCustomerPage(ipage, queryWrapper);
+        System.out.println("数页数： " + ipages.getPages());
+        System.out.println("总计录数：" + ipages.getTotal());
+        List<UserInfo> userInfoList =  ipages.getRecords();
         userInfoList.stream().forEach(System.out::println);
     }
 }

@@ -20,3 +20,8 @@ logging:
     com.mp.mapper: trace
   pattern:
     console: '%p%m%t%n'
+
+# 配置mybatis-plus的xml配置文件位置, 这里需要注意配置格式
+mybatis-plus:
+  mapper-locations: classpath:mappers/*.xml
+  type-aliases-package: com.mp.entity
