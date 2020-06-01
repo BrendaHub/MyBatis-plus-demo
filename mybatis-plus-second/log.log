@@ -1,0 +1,6 @@
+ Consume Time：13 ms 2020-05-29 17:37:19
+ Execute SQL：SELECT COUNT(1) FROM ( SELECT id,name,age,email,fill_field FROM user WHERE delete=0 AND (age < 26) ) TOTAL
+
+ Consume Time：4 ms 2020-05-29 17:37:19
+ Execute SQL：SELECT id,name,age,email,fill_field FROM user WHERE delete=0 AND (age < 26) limit 2
+
