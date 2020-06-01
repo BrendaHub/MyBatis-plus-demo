@@ -4,3 +4,18 @@
  Consume Time：4 ms 2020-05-29 17:37:19
  Execute SQL：SELECT id,name,age,email,fill_field FROM user WHERE delete=0 AND (age < 26) limit 2
 
+ Consume Time：8 ms 2020-05-29 17:44:08
+ Execute SQL：SELECT id,name,age,email,fill_field,version FROM user WHERE id=21 AND delete=0
+
+ Consume Time：16 ms 2020-05-29 17:45:46
+ Execute SQL：SELECT id,name,age,email,fill_field,version FROM user WHERE id=5 AND delete=0
+
+ Consume Time：3 ms 2020-05-29 17:45:46
+ Execute SQL：INSERT INTO user ( id, name, age, email, fill_field, version ) VALUES ( 5, '乐观锁测试', 24, 'test5@baomidou.com', '乐购锁测试', 0 )
+
+ Consume Time：8 ms 2020-05-29 17:46:51
+ Execute SQL：SELECT id,name,age,email,fill_field,version FROM user WHERE id=5 AND delete=0
+
+ Consume Time：7 ms 2020-05-29 17:46:51
+ Execute SQL：UPDATE user SET name='乐观锁测试', age=24, email='test5@baomidou.com', fill_field='乐购锁测试', version=1 WHERE id=5 AND version=0 AND delete=0
+
