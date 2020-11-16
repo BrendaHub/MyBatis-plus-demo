@@ -2,7 +2,6 @@ package com.mp.second.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import lombok.Data;
-import sun.jvm.hotspot.oops.FieldType;
 
 /**
  * @Fun Description //TODO

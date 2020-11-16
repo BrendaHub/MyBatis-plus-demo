@@ -2,16 +2,20 @@
 # DataSource Config
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    driver-class-name: org.h2.Driver
 #    schema: classpath:db/schema-h2.sql
 #    data: classpath:db/data-h2.sql
 #    url: jdbc:h2:mem:test
 #    jdbc:h2:tcp://<server>[:<port>]/[<path>]<databaseName>
-    url: jdbc:h2:tcp://localhost/~/mp_db
-    username: sa
-    password: sa
+#    url: jdbc:h2:tcp://localhost/~/mp_db
+    url: jdbc:mysql://localhost:3306/loiter?useUnicode=true&characterEncoding=utf-8&relaxAutoCommit=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+    username: root
+    password: rootroot
   application:
     name: mybatis-plus-h2-demo
+  main:
+    allow-bean-definition-overriding: true
 
 # 日志配置
 logging:
@@ -22,16 +26,21 @@ logging:
     console: '%p%m%t%n'
 
 # 配置mybatis-plus的xml配置文件位置, 这里需要注意配置格式
-mybatis-plus:
-  mapper-locations: classpath:mappers/*.xml
-  type-aliases-package: com.mp.entity # 配置这个别名， 在xml里面就不需要写类的全限定名了。
-  global-config:
-    db-config:
-      id-type: auto
-#      field-strategy: ignored
-      table-underline: true
-#      table-prefix: cic_
-    banner: false
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印SQL便于调试
-
+#mybatis-plus:
+#  mapper-locations: classpath:mappers/*.xml
+#  type-aliases-package: com.mp.entity # 配置这个别名， 在xml里面就不需要写类的全限定名了。
+#  global-config:
+#    db-config:
+#      id-type: auto
+##      field-strategy: ignored
+#      table-underline: true
+##      table-prefix: cic_
+#    banner: false
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #打印SQL便于调试
+easy:
+  redis:
+    host: locahost
+    port: 6379
+    database: 1
+    password:

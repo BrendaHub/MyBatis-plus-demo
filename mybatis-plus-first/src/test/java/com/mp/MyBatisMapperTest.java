@@ -2,8 +2,10 @@ package com.mp;
 
 import com.mp.entity.User;
 import com.mp.entity.User1;
+import com.mp.entity.UserInfo;
 import com.mp.mapper.User1Mapper;
 import com.mp.mapper.UserMapper;
+import com.mp.service.IUserInfoService;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -32,6 +34,9 @@ public class MyBatisMapperTest {
     @Autowired(required = false)
     User1Mapper user1Mapper;
 
+    @Autowired
+    private IUserInfoService iUserInfoService;
+
     @Test
     public void testSelectItems() {
         User user = new User();
@@ -53,6 +58,16 @@ public class MyBatisMapperTest {
         user1.setCreateTime(LocalDateTime.now());
         user1.setRemark("备注字段， 不在表中");
         int row1 = user1Mapper.insert(user1);
+        User1 byId = iUserInfoService.getById(1);
+        System.out.println(byId);
         Assert.assertEquals(1, row1);
+    }
+
+
+
+    @Test
+    public void testUserInfoSer() {
+        User1 byId = iUserInfoService.getById(1);
+        Assert.assertNotNull(byId);
     }
 }

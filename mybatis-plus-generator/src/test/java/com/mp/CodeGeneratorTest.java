@@ -100,14 +100,14 @@ public class CodeGeneratorTest {
         if (!serviceClassNameStartWithI) {
             config.setServiceName("%sService");
         }
-        new AutoGenerator_bak().setGlobalConfig(config)
-                .setDataSource(dataSourceConfig)
-                .setStrategy(strategyConfig)
-                .setPackageInfo(
-                        new PackageConfig()
-                                .setParent(packageName)
-                                .setController("controller")
-                                .setEntity("entity")
-                ).execute();
+//        new AutoGenerator_bak().setGlobalConfig(config)
+//                .setDataSource(dataSourceConfig)
+//                .setStrategy(strategyConfig)
+//                .setPackageInfo(
+//                        new PackageConfig()
+//                                .setParent(packageName)
+//                                .setController("controller")
+//                                .setEntity("entity")
+//                ).execute();
     }
 }

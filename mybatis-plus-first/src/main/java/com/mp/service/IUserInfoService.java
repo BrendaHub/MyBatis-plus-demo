@@ -1,6 +1,7 @@
 package com.mp.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.mp.entity.User1;
 import com.mp.entity.UserInfo;
 
 /**
@@ -9,5 +10,5 @@ import com.mp.entity.UserInfo;
  * @Author chenhj(brenda)
  * site: https://www.ant-loiter.com
  **/
-public interface IUserInfoService extends IService<UserInfo> {
+public interface IUserInfoService extends IService<User1> {
 }

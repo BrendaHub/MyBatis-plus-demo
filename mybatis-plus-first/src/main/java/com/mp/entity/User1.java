@@ -1,5 +1,6 @@
 package com.mp.entity;
 
+import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -15,9 +16,9 @@ import java.time.LocalDateTime;
  **/
 @Data
 // 在entity 与 表不是按规则进行匹配的就需要使用tableanem注解进行对定
-@TableName(value = "USERINFO", schema = "PUBLIC")
+@TableName(value = "USERINFO", schema = "loiter")
 public class User1 {
-    @TableId // 指定这个字段为表的主键ID，这样mp就会自增ID
+    @TableId(type = IdType.ASSIGN_ID) // 指定这个字段为表的主键ID，这样mp就会自增ID
     private Long id;
     @TableField(value = "name")
     private String name;

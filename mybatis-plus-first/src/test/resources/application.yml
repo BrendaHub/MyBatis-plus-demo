@@ -1,0 +1,31 @@
+easy:
+  redis:
+    host: locahost
+    port: 6379
+    database: 1
+    password:
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #    driver-class-name: org.h2.Driver
+    #    schema: classpath:db/schema-h2.sql
+    #    data: classpath:db/data-h2.sql
+    #    url: jdbc:h2:mem:test
+    #    jdbc:h2:tcp://<server>[:<port>]/[<path>]<databaseName>
+    #    url: jdbc:h2:tcp://localhost/~/mp_db
+    url: jdbc:mysql://localhost:3306/loiter?useUnicode=true&characterEncoding=utf-8&relaxAutoCommit=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true
+    username: root
+    password: rootroot
+  application:
+    name: mybatis-plus-h2-demo
+  main:
+    allow-bean-definition-overriding: true
+
+# 日志配置
+logging:
+  level:
+    root: info
+    com.mp.mapper: trace
+  pattern:
+    console: '%p%m%t%n'

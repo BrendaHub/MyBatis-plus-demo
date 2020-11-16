@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:mybatis-plus-generator" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="387f8ee4-0167-411c-a24d-6873c52450b1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="RedisTest.testSet" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ProjectId" id="1kKOwkQqxOAzVhwVG4yAuh5fKSP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.39808154" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RedisTest.testSet">
+    <configuration name="MyBatisMapperTest.testSelectItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mp" />
+      <option name="MAIN_CLASS_NAME" value="com.mp.MyBatisMapperTest" />
+      <option name="METHOD_NAME" value="testSelectItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mp" />
+      <option name="MAIN_CLASS_NAME" value="com.mp.RedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mp" />
+      <option name="MAIN_CLASS_NAME" value="com.mp.RedisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.testSet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-plus-first" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mp" />
+      <option name="MAIN_CLASS_NAME" value="com.mp.RedisTest" />
+      <option name="METHOD_NAME" value="testSet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusFirstApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-plus-first" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mp.MybatisPlusFirstApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-plus-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mp.MybatisPlusGeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusSecondApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mybatis-plus-second" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.mp.second.MybatisPlusSecondApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RedisTest.testSet" />
+        <item itemvalue="JUnit.RedisTest" />
+        <item itemvalue="JUnit.RedisTest.test" />
+        <item itemvalue="JUnit.MyBatisMapperTest.testSelectItems" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="387f8ee4-0167-411c-a24d-6873c52450b1" name="Default Changelist" comment="" />
+      <created>1605446056835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605446056835</updated>
+      <workItem from="1605446060378" duration="901000" />
+      <workItem from="1605447013982" duration="7210000" />
+      <workItem from="1605536341369" duration="631000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="752" y="243" width="703" height="594" key="#xdebugger.evaluate" timestamp="1605452218191">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state x="752" y="243" width="703" height="594" key="#xdebugger.evaluate/74.0.1846.1080@74.0.1846.1080" timestamp="1605452218191" />
+    <state width="1802" height="384" key="GridCell.Tab.0.bottom" timestamp="1605452453502">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state width="1802" height="384" key="GridCell.Tab.0.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1605452453502" />
+    <state width="1802" height="384" key="GridCell.Tab.0.center" timestamp="1605452453501">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state width="1802" height="384" key="GridCell.Tab.0.center/74.0.1846.1080@74.0.1846.1080" timestamp="1605452453501" />
+    <state width="1802" height="384" key="GridCell.Tab.0.left" timestamp="1605452453500">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state width="1802" height="384" key="GridCell.Tab.0.left/74.0.1846.1080@74.0.1846.1080" timestamp="1605452453500" />
+    <state width="1802" height="384" key="GridCell.Tab.0.right" timestamp="1605452453501">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state width="1802" height="384" key="GridCell.Tab.0.right/74.0.1846.1080@74.0.1846.1080" timestamp="1605452453501" />
+    <state width="1802" height="602" key="GridCell.Tab.1.bottom" timestamp="1605452427652">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state width="1802" height="602" key="GridCell.Tab.1.bottom/74.0.1846.1080@74.0.1846.1080" timestamp="1605452427652" />
+    <state width="1802" height="602" key="GridCell.Tab.1.center" timestamp="1605452427651">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state width="1802" height="602" key="GridCell.Tab.1.center/74.0.1846.1080@74.0.1846.1080" timestamp="1605452427651" />
+    <state width="1802" height="602" key="GridCell.Tab.1.left" timestamp="1605452427651">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state width="1802" height="602" key="GridCell.Tab.1.left/74.0.1846.1080@74.0.1846.1080" timestamp="1605452427651" />
+    <state width="1802" height="602" key="GridCell.Tab.1.right" timestamp="1605452427651">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state width="1802" height="602" key="GridCell.Tab.1.right/74.0.1846.1080@74.0.1846.1080" timestamp="1605452427651" />
+    <state x="477" y="114" key="SettingsEditor" timestamp="1605450673746">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state x="477" y="114" key="SettingsEditor/74.0.1846.1080@74.0.1846.1080" timestamp="1605450673746" />
+    <state x="541" y="269" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605450711635">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state x="541" y="269" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/74.0.1846.1080@74.0.1846.1080" timestamp="1605450711635" />
+    <state x="704" y="273" width="585" height="534" key="find.popup" timestamp="1605449170700">
+      <screen x="74" y="0" width="1846" height="1080" />
+    </state>
+    <state x="704" y="273" width="585" height="534" key="find.popup/74.0.1846.1080@74.0.1846.1080" timestamp="1605449170700" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/loiter/easy/redis/redis-spring-boot-starter/1.0.3-SNAPSHOT/redis-spring-boot-starter-1.0.3-SNAPSHOT.jar!/com/loiter/easy/redis/handler/RedisSingleProcessor.class</url>
+          <line>29</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/loiter/easy/redis/redis-spring-boot-starter/1.0.3-SNAPSHOT/redis-spring-boot-starter-1.0.3-SNAPSHOT.jar!/com/loiter/easy/redis/handler/RedisSingleProcessor.class</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/loiter/easy/redis/redis-spring-boot-starter/1.0.3-SNAPSHOT/redis-spring-boot-starter-1.0.3-SNAPSHOT.jar!/com/loiter/easy/redis/handler/RedisSingleProcessor.class</url>
+          <line>83</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/loiter/easy/redis/redis-spring-boot-starter/1.0.3-SNAPSHOT/redis-spring-boot-starter-1.0.3-SNAPSHOT.jar!/com/loiter/easy/redis/handler/RedisSingleProcessor.class</url>
+          <line>659</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/loiter/easy/redis/redis-spring-boot-starter/1.0.3-SNAPSHOT/redis-spring-boot-starter-1.0.3-SNAPSHOT.jar!/com/loiter/easy/redis/handler/RedisSingleProcessor.class</url>
+          <line>30</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/loiter/easy/redis/redis-spring-boot-starter/1.0.3-SNAPSHOT/redis-spring-boot-starter-1.0.3-SNAPSHOT.jar!/com/loiter/easy/redis/handler/RedisSingleProcessor.class</url>
+          <line>31</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/loiter/easy/redis/redis-spring-boot-starter/1.0.4-SNAPSHOT/redis-spring-boot-starter-1.0.4-SNAPSHOT.jar!/com/loiter/easy/redis/boot/RedisBeanContext.class</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/loiter/easy/redis/redis-spring-boot-starter/1.0.5-SNAPSHOT/redis-spring-boot-starter-1.0.5-SNAPSHOT.jar!/com/loiter/easy/redis/boot/RedisBeanContext.class</url>
+          <line>30</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/loiter/easy/redis/redis-spring-boot-starter/1.0.5-SNAPSHOT/redis-spring-boot-starter-1.0.5-SNAPSHOT.jar!/com/loiter/easy/redis/boot/RedisBeanContext.class</url>
+          <line>22</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/loiter/easy/redis/redis-spring-boot-starter/1.0.5-SNAPSHOT/redis-spring-boot-starter-1.0.5-SNAPSHOT.jar!/com/loiter/easy/redis/handler/RedisSingleProcessor.class</url>
+          <line>660</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
